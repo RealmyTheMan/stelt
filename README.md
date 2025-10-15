@@ -9,7 +9,7 @@
 - You have a `reset` function which can instantly reset the state to its original form.
 - You don't need to add the `.svelte.ts` suffix to files, you can just use `.ts`.
 - It works out of the box with any data type, including special reactive types like `SvelteMap`.
-- It's a _very_ small library.
+- It's lightweight.
 
 ## How to use
 
