@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { setCountTo } from "$lib/testing/change.js";
-  import { count } from "$lib/testing/count.js";
+  import { setCountTo } from "$lib/demo/change.js";
+  import { count } from "$lib/demo/count.js";
 </script>
 
 <h1>A small demonstration of <code>stelte</code>!</h1>
