@@ -5,9 +5,9 @@
 
 <h1>A small demonstration of <code>stelt</code>!</h1>
 
-<p>{count.now}</p>
-<button onclick={() => count.now++}>add</button>
-<button onclick={() => count.now--}>subtract</button>
+<p>{count.value}</p>
+<button onclick={() => count.value++}>add</button>
+<button onclick={() => count.value--}>subtract</button>
 <button onclick={() => count.reset()}>reset</button>
 <button onclick={() => setCountTo(360)}>set count to 360</button>
 

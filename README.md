@@ -9,6 +9,7 @@
 - You have a `reset` function which can instantly reset the state to its original form.
 - You don't need to add the `.svelte.ts` suffix to files, you can just use `.ts`.
 - It works out of the box with any data type, including special reactive types like `SvelteMap`.
+- It's a _very_ small library.
 
 ## How to use
 
@@ -23,9 +24,9 @@ const count = stelt(() => 0); // you declare the value inside of a function
 And you can use it in a component like so:
 
 ```svelte
-<p>{count.now}</p>
-<button onclick={() => count.now++}>add</button>
-<button onclick={() => count.now--}>subtract</button>
+<p>{count.value}</p>
+<button onclick={() => count.value++}>add</button>
+<button onclick={() => count.value--}>subtract</button>
 <button onclick={() => count.reset()}>reset</button>
 ```
 
