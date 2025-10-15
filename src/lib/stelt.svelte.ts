@@ -1,7 +1,7 @@
 /**
  * Creates a stateful variable using the Svelte 5 `$state` rune, and provides a reset function.
  */
-export function stelte<T>(initializer: () => T): {
+export function stelt<T>(initializer: () => T): {
   now: T;
   reset: () => void;
 } {

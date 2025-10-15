@@ -1,2 +1,2 @@
-import { stelte } from "./stelte.svelte.js";
-export default stelte;
+import { stelt } from "./stelt.svelte";
+export default stelt;

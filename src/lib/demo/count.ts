@@ -1,3 +1,3 @@
-import { stelte } from "$lib/stelte.svelte.js";
+import { stelt } from "$lib/stelt.svelte";
 
-export const count = stelte(() => 0);
+export const count = stelt(() => 0);

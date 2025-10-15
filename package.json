@@ -1,5 +1,5 @@
 {
-  "name": "stelte",
+  "name": "stelt",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite dev",
@@ -49,7 +49,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RealmyTheMan/stelte.git"
+    "url": "git+https://github.com/RealmyTheMan/stelt.git"
   },
   "keywords": [
     "svelte",

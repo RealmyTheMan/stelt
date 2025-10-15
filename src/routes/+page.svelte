@@ -3,7 +3,7 @@
   import { count } from "$lib/demo/count.js";
 </script>
 
-<h1>A small demonstration of <code>stelte</code>!</h1>
+<h1>A small demonstration of <code>stelt</code>!</h1>
 
 <p>{count.now}</p>
 <button onclick={() => count.now++}>add</button>

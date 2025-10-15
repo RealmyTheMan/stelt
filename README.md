@@ -1,10 +1,10 @@
-# `stelte`
+# `stelt`
 
-`stelte` makes managing global state in Svelte ever so slightly more convenient, while keeping the simplicity of Svelte.
+`stelt` makes managing global state in Svelte ever so slightly more convenient, while keeping the simplicity of Svelte.
 
 > **Note:** This package only works with Svelte 5, due to the usage of runes.
 
-## Why `stelte`?
+## Why `stelt`?
 
 - You have a `reset` function which can instantly reset the state to its original form.
 - You don't need to add the `.svelte.ts` suffix to files, you can just use `.ts`.
@@ -16,8 +16,8 @@ You can declare state like so:
 
 ```ts
 // count.ts
-import stelte from "stelte";
-const count = stelte(() => 0); // you declare the value inside of a function
+import stelt from "stelt";
+const count = stelt(() => 0); // you declare the value inside of a function
 ```
 
 And you can use it in a component like so:
